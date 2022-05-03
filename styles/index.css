@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: rgb(0,0,66);
+    background: -moz-linear-gradient(90deg, rgba(0,0,66,1) 35%, rgba(0,0,106,1) 73%, rgba(0,0,138,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(0,0,66,1) 35%, rgba(0,0,106,1) 73%, rgba(0,0,138,1) 100%);
+    background: linear-gradient(90deg, rgba(0,0,66,1) 35%, rgba(0,0,106,1) 73%, rgba(0,0,138,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000042",endColorstr="#00008a",GradientType=1);
+    padding: 10px 50px;
+    margin: 10px 10px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 100px;
+    width: 100px;
+}
+
+.navbar ul {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    list-style-type: none;
+    height: 100px;
+    width: 40vw;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.navbar ul li {
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #f5e7de;
+    font-weight: bolder;
+}
+
+.navbar ul li a:hover {
+    color: #c72020;
+    text-decoration: underline solid #c72020;
+    transition-duration: 0.5s;
+}
+
+body {
+    background-image: url(https://us.123rf.com/450wm/midgardfire/midgardfire2202/midgardfire220200016/181858909-.jpg?ver=6);
+    background-attachment: fixed;
+}
+
+main {
+    color: blue;
+}
